@@ -20,6 +20,10 @@ public class Teacher extends Person{
         if (this.getKlass() != 0){
             return super.introduce()+" I am a Teacher. I teach Class "+this.getKlass()+".";
         }
+<<<<<<< HEAD
         return super.introduce()+" I am a Teacher. I teach No Class.";
+=======
+        return super.introduce()+"I am a Teacher. I teach No Class.";
+>>>>>>> cd20a118b7ff45981b792ff44f1e1fcff5cca2bb
     }
 }
