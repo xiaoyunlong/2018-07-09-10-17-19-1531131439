@@ -39,6 +39,7 @@ public class Person {
         return "My name is "+this.getName() + ". I am "+ this.getAge()+" years old.";
     }
 
+    //TODO
     @Override
     public boolean equals(Object obj) {
         if(this.getId() == ((Person)obj).getId()){
