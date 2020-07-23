@@ -14,6 +14,11 @@ public class Person {
         this.klass = klass;
     }
 
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
     public Person(int id, String name, int age) {
         this.id = id;
         this.name = name;
@@ -42,7 +47,7 @@ public class Person {
 
     @Override
     public boolean equals(Object obj) {
-        if(this.getId() == ((practice08.Person)obj).getId()){
+        if(this.getId() == ((Person)obj).getId()){
             return true;
         }
         return false;
