@@ -18,10 +18,7 @@ public class Person {
     }
 
     public String introduce(){
-<<<<<<< HEAD
         return "My name is "+this.getName() + ". I am "+ this.getAge()+" years old.";
-=======
-        return "My name is"+this.getName() + ".I am +"+ this.getAge()+"years old";
->>>>>>> cd20a118b7ff45981b792ff44f1e1fcff5cca2bb
+
     }
 }

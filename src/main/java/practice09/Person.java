@@ -40,7 +40,7 @@ public class Person {
         return "My name is "+this.getName() + ". I am "+ this.getAge()+" years old.";
     }
 
-    @Override //不能修改参数列表
+    @Override
     public boolean equals(Object obj) {
         if(this.getId() == ((practice08.Person)obj).getId()){
             return true;
